@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import suicide from "../../Assets/Projects/p1.png";
+import emotion from "../../Assets/Projects/p2.png";
+import editor from "../../Assets/Projects/p3.png";
+import chatify from "../../Assets/Projects/academia.png";
+import leaf from "../../Assets/Projects/p4.png";
+import bitsOfCode from "../../Assets/Projects/p5.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="ACADEMIA"
+              description="Academia Online is an innovative educational platform designed to provide high-quality learning experiences accessible to anyone with an internet connection. Offering a diverse array of courses, Academia Online caters to learners of all ages and backgrounds, from students seeking supplemental education to professionals looking to enhance their skills or pursue new career paths."
               ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              demoLink="https://academia-1.netlify.app/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Python Data Analysis"
+              description="A flood prediction project involves the development and implementation of systems or models to forecast the occurrence and severity of floods in specific regions or areas. The primary goal is to provide early warnings and mitigate potential damage to lives, property, and infrastructure. "
+              ghLink="https://github.com/PankajBehera-1/shapeAI_python_ML"
+              
             />
           </Col>
 
@@ -47,10 +47,12 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="SAMS Admin Portal"
+              description="Creating an admin portal in React involves building a web application that serves as a centralized platform for administrators to manage various aspects of a system or application. Below is a general project description outline for creating an admin portal in React:
+              1.Authentication and Authorization
+              2.Dashboard
+              3.Responsive Design"
+              ghLink="https://github.com/PankajBehera-1/SAMS_ADMIN"             
             />
           </Col>
 
@@ -58,10 +60,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Online Education Website"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+
             />
           </Col>
 
@@ -69,10 +71,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="My Portfolio Website"
+              description="Project Description:
+              The goal of this project is to design and develop a personal portfolio website using React, a popular JavaScript library for building user interfaces. This portfolio website will serve as a platform to showcase your professional background, skills, projects, and contact information."
+              ghLink="https://github.com/PankajBehera-1/My_Portfolio_website" 
             />
           </Col>
 
@@ -80,11 +82,12 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Demo Website"
+              description="Description:
+
+              Reactify is a modern and responsive website built entirely using React.js, a popular JavaScript library for building user interfaces. This project aims to showcase the power and flexibility of React in creating dynamic and interactive web experiences."
+              ghLink="https://github.com/PankajBehera-1/radiant-onepage"
+              demoLink="https://radiant-pankaj.netlify.app/"   
             />
           </Col>
         </Row>

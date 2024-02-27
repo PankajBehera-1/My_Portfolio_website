@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed and Developed by Pankaj Behera</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {2024} PB</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/home"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
